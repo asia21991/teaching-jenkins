@@ -1,0 +1,26 @@
+[rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA] Running shell script
++ make test
+PYTHONPATH=. py.test; \
+PYTHONPATH=. py.test  --verbose -s
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.9, pytest-3.0.7, py-1.4.33, pluggy-0.4.0
+rootdir: /var/jenkins_home/workspace/rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA, inifile:
+plugins: cov-2.5.1
+collected 3 items
+
+test/test_formater.py .
+test/test_views.py ..
+
+=========================== 3 passed in 0.13 seconds ===========================
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.9, pytest-3.0.7, py-1.4.33, pluggy-0.4.0 -- /usr/bin/python
+cachedir: .cache
+rootdir: /var/jenkins_home/workspace/rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA, inifile:
+plugins: cov-2.5.1
+collecting ... collected 3 items
+
+test/test_formater.py::TestFormater::test_plain_lowercase PASSED
+test/test_views.py::FlaskrTestCase::test_msg_with_output PASSED
+test/test_views.py::FlaskrTestCase::test_outputs PASSED
+
+=========================== 3 passed in 0.12 seconds ===========================

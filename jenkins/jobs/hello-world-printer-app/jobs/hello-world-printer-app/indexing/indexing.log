@@ -1,0 +1,33 @@
+Branch indexing
+[Sat May 13 12:42:24 UTC 2017] Starting branch indexing...
+[8mha:////4FPJOMyVZ3ciUpkrdM9L0FRUqx4BzFo+bI+xmaRfFCXNAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQM45XrHwAIWjCdjgAAAA==[0mConnecting to https://api.github.com using asia21991/******
+[8mha:////4OOtqNQKiEHRQop1mvIQ+69dn7RJRakzs5oWCBYGmfA5AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQM45VblgBRXibKjgAAAA==[0mConnecting to https://api.github.com using asia21991/******
+Looking up [8mha:////4BZfbj45f9hZlJQ4f+tjFJVh05HF5aAUDXMUZpcgAO9ZAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLGEwySgpKSi20tdPzyzJKE0C6srVTyzOTDQytLQ01M9IzcnJ1y3PL8pJ0S0AWlCSWqSbWFAAAKva7hS5AAAA[0masia21991/hello-world-printer-app
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4FDZl23An299FmcWKFM++sJsMYTd8E+GvuT3MzMjpbzLAAAAvB+LCAAAAAAAAP9djbENwjAURD9BZABKxArJVyiQAoqERANSRMMEhli2wbEt+wfCGqwBDUMwDjsQlI5r7q64d88PjIKHqWyqYE16tCZYzdPNzXGvlTnvLPF58XgVd/eOINpCrLkRJEsYNl4TjMsTuzDUzAjck1dGLFsPkz/cuvcfDHoNIoDWdSEmWEkiFxaIQpFsDt2qRhYUm2V5nqHkWtvkar2uEtcdEPcJcw7Jc441C13/Am3lj9TFAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+
+    Checking branch [8mha:////4Ji5XzFhAM3BdH8poaro5dOpJcldotjw43+XE/+sZpIrAAAAwR+LCAAAAAAAAP9djTEOgkAURL8YbewsjVeADRYmaKiMiSbExgOYBTYsuu5u/n4EruE1tPEQHsc7iKFzmpnmvXl+YOQQ5rLKndFBZrQzSgS71gpUpb4cDIll/HjFd/v2wNvDWAldkExgWKEimCZnfuNMcV2wI2Gpi3WDMPvTbfr+yaDPwANobDcmBFtJZN2KsaIkWaUddWXclXwRRlHIpFDK+LVBlfu2OyCBPreWEQrBtKnbU4pcZ/ILDlFV4soAAAA=[0mnowy_branch
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: nowy_branch
+
+    Checking branch [8mha:////4KbnF+C80XOXaaB+moaMNGrx5YBB/wMv0dT+GV1Dtu5zAAAAwx+LCAAAAAAAAP9djr0NwjAUhB9BMEBKxArhCQqkgKhoQIpoGAAZ8mQbjG3ZL/yswRrQMATjsANGdFxz13x393hDJwboq6aOzg52zkZnaLC4egpG28PKMY1n9+fs5l8ZZEvoGrKSVQXtJhiGvNqLk0AjrMQ1B23l9BKg91c3//m3DH5qZQAXn0LOUClmHyeIUrNqtok6oohajIZlOURFxrji7IKpC58GmEIhvEcORMgUeXNO2CZSOqab4wfGRxXZ0QAAAA==[0mtest_with_selenium
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: test_with_selenium
+
+  3 branches were processed
+
+Done examining asia21991/hello-world-printer-app
+
+[Sat May 13 12:42:27 UTC 2017] Finished branch indexing. Indexing took 3 sec
+Finished: SUCCESS

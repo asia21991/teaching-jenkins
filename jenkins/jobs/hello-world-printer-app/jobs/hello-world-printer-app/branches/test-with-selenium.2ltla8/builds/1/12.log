@@ -1,0 +1,64 @@
+[nter-app_test_with_selenium-6GF77NW2RUV32APWTQ2WQP5PTYTZZ7CGWZS2G67CCSY4OTHGA7GQ] Running shell script
++ make deps
+pip install -r requirements.txt; \
+pip install -r test_requirements.txt
+Downloading/unpacking flask (from -r requirements.txt (line 1))
+Downloading/unpacking itsdangerous>=0.21 (from flask->-r requirements.txt (line 1))
+  Running setup.py (path:/tmp/pip-build-tMqOpb/itsdangerous/setup.py) egg_info for package itsdangerous
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+Downloading/unpacking Werkzeug>=0.7 (from flask->-r requirements.txt (line 1))
+Downloading/unpacking Jinja2>=2.4 (from flask->-r requirements.txt (line 1))
+Downloading/unpacking click>=2.0 (from flask->-r requirements.txt (line 1))
+Downloading/unpacking MarkupSafe>=0.23 (from Jinja2>=2.4->flask->-r requirements.txt (line 1))
+  Downloading MarkupSafe-1.0.tar.gz
+  Running setup.py (path:/tmp/pip-build-tMqOpb/MarkupSafe/setup.py) egg_info for package MarkupSafe
+    
+Installing collected packages: flask, itsdangerous, Werkzeug, Jinja2, click, MarkupSafe
+  Running setup.py install for itsdangerous
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+Cleaning up...
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 295, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1436, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 745, in install
+    f = open(os.path.join(egg_info_dir, 'installed-files.txt'), 'w')
+IOError: [Errno 2] No such file or directory: '/usr/local/lib/python2.7/dist-packages/itsdangerous-0.24.egg-info/installed-files.txt'
+
+Storing debug log for failure in /root/.pip/pip.log
+Downloading/unpacking mock (from -r test_requirements.txt (line 1))
+Downloading/unpacking pytest (from -r test_requirements.txt (line 2))
+Downloading/unpacking flake8 (from -r test_requirements.txt (line 3))
+Downloading/unpacking selenium (from -r test_requirements.txt (line 4))
+Downloading/unpacking six>=1.9 (from mock->-r test_requirements.txt (line 1))
+  Downloading six-1.10.0-py2.py3-none-any.whl
+Downloading/unpacking funcsigs>=1 (from mock->-r test_requirements.txt (line 1))
+  Downloading funcsigs-1.0.2-py2.py3-none-any.whl
+Downloading/unpacking pbr>=0.11 (from mock->-r test_requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /usr/lib/python2.7/dist-packages (from pytest->-r test_requirements.txt (line 2))
+Downloading/unpacking py>=1.4.29 (from pytest->-r test_requirements.txt (line 2))
+Downloading/unpacking pyflakes>=1.5.0,<1.6.0 (from flake8->-r test_requirements.txt (line 3))
+Downloading/unpacking configparser (from flake8->-r test_requirements.txt (line 3))
+  Downloading configparser-3.5.0.tar.gz
+  Running setup.py (path:/tmp/pip-build-mhzKzZ/configparser/setup.py) egg_info for package configparser
+    
+Downloading/unpacking mccabe>=0.6.0,<0.7.0 (from flake8->-r test_requirements.txt (line 3))
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl
+Downloading/unpacking pycodestyle>=2.0.0,<2.4.0 (from flake8->-r test_requirements.txt (line 3))
+Downloading/unpacking enum34 (from flake8->-r test_requirements.txt (line 3))
+  Downloading enum34-1.1.6-py2-none-any.whl
+Installing collected packages: mock, pytest, flake8, selenium, six, funcsigs, pbr, py, pyflakes, configparser, mccabe, pycodestyle, enum34
+  Found existing installation: six 1.8.0
+    Not uninstalling six at /usr/lib/python2.7/dist-packages, owned by OS
+  Running setup.py install for configparser
+    
+    Skipping installation of /usr/local/lib/python2.7/dist-packages/backports/__init__.py (namespace package)
+    Installing /usr/local/lib/python2.7/dist-packages/configparser-3.5.0-nspkg.pth
+Successfully installed mock pytest flake8 selenium six funcsigs pbr py pyflakes configparser mccabe pycodestyle enum34
+Cleaning up...

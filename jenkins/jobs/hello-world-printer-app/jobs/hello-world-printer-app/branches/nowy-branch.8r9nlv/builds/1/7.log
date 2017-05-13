@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/asia21991/hello-world-printer-app.git
+ > git init /var/jenkins_home/workspace/rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin1.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/pull/*/head:refs/remotes/origin/pr/*
+Checking out Revision 57aeda9e12535fd81b437cac0258a0780a21d562 (nowy_branch)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 57aeda9e12535fd81b437cac0258a0780a21d562
+First time build. Skipping changelog.

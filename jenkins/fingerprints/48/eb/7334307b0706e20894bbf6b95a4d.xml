@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-13 12:42:40.676 UTC</timestamp>
+  <md5sum>48eb7334307b0706e20894bbf6b95a4d</md5sum>
+  <fileName>Credential id=46e4db05-e80d-42e8-bbf2-a46efac1599c name=asia21991/******</fileName>
+  <usages>
+    <entry>
+      <string>hello-world-printer-app/hello-world-printer-app/nowy_branch</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello-world-printer-app/hello-world-printer-app/master</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello-world-printer-app/hello-world-printer-app/test_with_selenium</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

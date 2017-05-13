@@ -1,0 +1,10 @@
+[rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA] Running shell script
++ make deps
+pip install -r requirements.txt; \
+pip install -r test_requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): flask in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 1))
+Cleaning up...
+Requirement already satisfied (use --upgrade to upgrade): mock in /usr/local/lib/python2.7/dist-packages (from -r test_requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): pytest in /usr/local/lib/python2.7/dist-packages (from -r test_requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): flake8 in /usr/local/lib/python2.7/dist-packages (from -r test_requirements.txt (line 3))
+Cleaning up...

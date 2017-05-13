@@ -1,0 +1,30 @@
+Started
+[Sat May 13 12:42:22 UTC 2017] Starting organization scan...
+[Sat May 13 12:42:22 UTC 2017] Updating actions...
+Looking up details of asia21991...
+Organization URL: [8mha:////4B5R5q8FldAWzXaNTnQmycmErbzWD7fqLeuyZelEEeB7AAAAmx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQKQFaXlJSUGylr5+eWZJRmgTUlaufWJyZaGRoaWkIACFVZDGhAAAA[0mhttps://github.com/asia21991
+[Sat May 13 12:42:22 UTC 2017] Consulting GitHub Organization
+[8mha:////4JvYygaVVHBh2NuEfj5foHmxqDe+avcLb+AxdZ0W0ozTAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQM45Vz5wC77lHHjgAAAA==[0mConnecting to https://api.github.com using asia21991/******
+[8mha:////4OABC2VT2D8mV/PfzE0oVqpIzIgCGGjXE+xMFBvNQhlDAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQM45UL7QBQKBAcjgAAAA==[0mLooking up repositories of myself asia21991
+Ignoring hello-world
+Proposing hello-world-printer-app
+Looking up [8mha:////4BZfbj45f9hZlJQ4f+tjFJVh05HF5aAUDXMUZpcgAO9ZAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLGEwySgpKSi20tdPzyzJKE0C6srVTyzOTDQytLQ01M9IzcnJ1y3PL8pJ0S0AWlCSWqSbWFAAAKva7hS5AAAA[0masia21991/hello-world-printer-app
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4FDZl23An299FmcWKFM++sJsMYTd8E+GvuT3MzMjpbzLAAAAvB+LCAAAAAAAAP9djbENwjAURD9BZABKxArJVyiQAoqERANSRMMEhli2wbEt+wfCGqwBDUMwDjsQlI5r7q64d88PjIKHqWyqYE16tCZYzdPNzXGvlTnvLPF58XgVd/eOINpCrLkRJEsYNl4TjMsTuzDUzAjck1dGLFsPkz/cuvcfDHoNIoDWdSEmWEkiFxaIQpFsDt2qRhYUm2V5nqHkWtvkar2uEtcdEPcJcw7Jc441C13/Am3lj9TFAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  0 branches were processed (query completed)
+
+Done examining asia21991/hello-world-printer-app
+
+Ignoring teaching-jenkins
+Ignoring wonsz
+[Sat May 13 12:42:24 UTC 2017] Finished organization scan. Scan took 2.6 sec
+Finished: SUCCESS

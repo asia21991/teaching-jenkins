@@ -1,0 +1,83 @@
+Branch indexing
+[8mha:////4Foqlg7m2TpMZV/nZy5YmP2xfI/alOxDeNQ+hv4G+5U0AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQM45UnwQBqzYQmjgAAAA==[0mConnecting to https://api.github.com using asia21991/******
+Obtained Jenkinsfile from 57aeda9e12535fd81b437cac0258a0780a21d562
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor
+Running on master in /var/jenkins_home/workspace/rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning repository https://github.com/asia21991/hello-world-printer-app.git
+ > git init /var/jenkins_home/workspace/rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin1.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/pull/*/head:refs/remotes/origin/pr/*
+Checking out Revision 57aeda9e12535fd81b437cac0258a0780a21d562 (nowy_branch)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 57aeda9e12535fd81b437cac0258a0780a21d562
+First time build. Skipping changelog.
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Test)
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA] Running shell script
++ make deps
+pip install -r requirements.txt; \
+pip install -r test_requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): flask in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 1))
+Cleaning up...
+Requirement already satisfied (use --upgrade to upgrade): mock in /usr/local/lib/python2.7/dist-packages (from -r test_requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): pytest in /usr/local/lib/python2.7/dist-packages (from -r test_requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): flake8 in /usr/local/lib/python2.7/dist-packages (from -r test_requirements.txt (line 3))
+Cleaning up...
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA] Running shell script
++ make test
+PYTHONPATH=. py.test; \
+PYTHONPATH=. py.test  --verbose -s
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.9, pytest-3.0.7, py-1.4.33, pluggy-0.4.0
+rootdir: /var/jenkins_home/workspace/rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA, inifile:
+plugins: cov-2.5.1
+collected 3 items
+
+test/test_formater.py .
+test/test_views.py ..
+
+=========================== 3 passed in 0.13 seconds ===========================
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.9, pytest-3.0.7, py-1.4.33, pluggy-0.4.0 -- /usr/bin/python
+cachedir: .cache
+rootdir: /var/jenkins_home/workspace/rld-printer-app_nowy_branch-YV7VILZMZB5D7BAGTMY53LCBSXOPAEYQMDMUYOGIMPDQN3DFKGKA, inifile:
+plugins: cov-2.5.1
+collecting ... collected 3 items
+
+test/test_formater.py::TestFormater::test_plain_lowercase PASSED
+test/test_views.py::FlaskrTestCase::test_msg_with_output PASSED
+test/test_views.py::FlaskrTestCase::test_outputs PASSED
+
+=========================== 3 passed in 0.12 seconds ===========================
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

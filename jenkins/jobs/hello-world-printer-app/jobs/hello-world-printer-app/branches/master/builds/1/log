@@ -1,0 +1,185 @@
+Branch indexing
+[8mha:////4KmQDY7nXx9m28X3u8hgTBZ7SiH5uQu5CJgyMCqI34QUAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQM45XHCQC7OhXWjgAAAA==[0mConnecting to https://api.github.com using asia21991/******
+Obtained Jenkinsfile from 3dba1100c63b55a9eebde698debc92243048d7e3
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/lo-world-printer-app_master-WJOWMIIDABK3I7J46FL5UEDB4TQSM2RXDDXTLWOFIFBZ46PDJYNQ
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning repository https://github.com/asia21991/hello-world-printer-app.git
+ > git init /var/jenkins_home/workspace/lo-world-printer-app_master-WJOWMIIDABK3I7J46FL5UEDB4TQSM2RXDDXTLWOFIFBZ46PDJYNQ # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin1.url https://github.com/asia21991/hello-world-printer-app.git # timeout=10
+Fetching upstream changes from https://github.com/asia21991/hello-world-printer-app.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/asia21991/hello-world-printer-app.git +refs/pull/*/head:refs/remotes/origin/pr/*
+Checking out Revision 3dba1100c63b55a9eebde698debc92243048d7e3 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3dba1100c63b55a9eebde698debc92243048d7e3
+First time build. Skipping changelog.
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Test)
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[lo-world-printer-app_master-WJOWMIIDABK3I7J46FL5UEDB4TQSM2RXDDXTLWOFIFBZ46PDJYNQ] Running shell script
++ make deps
+pip install -r requirements.txt; \
+pip install -r test_requirements.txt
+Downloading/unpacking flask (from -r requirements.txt (line 1))
+Downloading/unpacking itsdangerous>=0.21 (from flask->-r requirements.txt (line 1))
+  Running setup.py (path:/tmp/pip-build-rPf9qk/itsdangerous/setup.py) egg_info for package itsdangerous
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+Downloading/unpacking Werkzeug>=0.7 (from flask->-r requirements.txt (line 1))
+Downloading/unpacking Jinja2>=2.4 (from flask->-r requirements.txt (line 1))
+Downloading/unpacking click>=2.0 (from flask->-r requirements.txt (line 1))
+Downloading/unpacking MarkupSafe>=0.23 (from Jinja2>=2.4->flask->-r requirements.txt (line 1))
+  Downloading MarkupSafe-1.0.tar.gz
+  Running setup.py (path:/tmp/pip-build-rPf9qk/MarkupSafe/setup.py) egg_info for package MarkupSafe
+    
+Installing collected packages: flask, itsdangerous, Werkzeug, Jinja2, click, MarkupSafe
+  Running setup.py install for itsdangerous
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+Compiling /tmp/pip-build-rPf9qk/Jinja2/jinja2/asyncfilters.py ...
+  File "/tmp/pip-build-rPf9qk/Jinja2/jinja2/asyncfilters.py", line 7
+    async def auto_to_seq(value):
+            ^
+SyntaxError: invalid syntax
+
+Compiling /tmp/pip-build-rPf9qk/Jinja2/jinja2/asyncsupport.py ...
+  File "/tmp/pip-build-rPf9qk/Jinja2/jinja2/asyncsupport.py", line 22
+    async def concat_async(async_gen):
+            ^
+SyntaxError: invalid syntax
+
+  Running setup.py install for MarkupSafe
+    
+    building 'markupsafe._speedups' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/include/python2.7 -c markupsafe/_speedups.c -o build/temp.linux-x86_64-2.7/markupsafe/_speedups.o
+    markupsafe/_speedups.c:12:20: fatal error: Python.h: No such file or directory
+     #include <Python.h>
+                        ^
+    compilation terminated.
+    ==========================================================================
+    WARNING: The C extension could not be compiled, speedups are not enabled.
+    Failure information, if any, is above.
+    Retrying the build without the C extension now.
+    
+    
+    ==========================================================================
+    WARNING: The C extension could not be compiled, speedups are not enabled.
+    Plain-Python installation succeeded.
+    ==========================================================================
+Successfully installed flask itsdangerous Werkzeug Jinja2 click MarkupSafe
+Cleaning up...
+Downloading/unpacking mock (from -r test_requirements.txt (line 1))
+Downloading/unpacking pytest (from -r test_requirements.txt (line 2))
+Downloading/unpacking flake8 (from -r test_requirements.txt (line 3))
+Downloading/unpacking pytest-cov (from -r test_requirements.txt (line 4))
+  Downloading pytest_cov-2.5.1-py2.py3-none-any.whl
+Downloading/unpacking six>=1.9 (from mock->-r test_requirements.txt (line 1))
+  Downloading six-1.10.0-py2.py3-none-any.whl
+Downloading/unpacking funcsigs>=1 (from mock->-r test_requirements.txt (line 1))
+  Downloading funcsigs-1.0.2-py2.py3-none-any.whl
+Downloading/unpacking pbr>=0.11 (from mock->-r test_requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /usr/lib/python2.7/dist-packages (from pytest->-r test_requirements.txt (line 2))
+Downloading/unpacking py>=1.4.29 (from pytest->-r test_requirements.txt (line 2))
+Downloading/unpacking pyflakes>=1.5.0,<1.6.0 (from flake8->-r test_requirements.txt (line 3))
+Downloading/unpacking configparser (from flake8->-r test_requirements.txt (line 3))
+  Downloading configparser-3.5.0.tar.gz
+  Running setup.py (path:/tmp/pip-build-XomSCY/configparser/setup.py) egg_info for package configparser
+    
+Downloading/unpacking mccabe>=0.6.0,<0.7.0 (from flake8->-r test_requirements.txt (line 3))
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl
+Downloading/unpacking pycodestyle>=2.0.0,<2.4.0 (from flake8->-r test_requirements.txt (line 3))
+Downloading/unpacking enum34 (from flake8->-r test_requirements.txt (line 3))
+  Downloading enum34-1.1.6-py2-none-any.whl
+Downloading/unpacking coverage>=3.7.1 (from pytest-cov->-r test_requirements.txt (line 4))
+  Running setup.py (path:/tmp/pip-build-XomSCY/coverage/setup.py) egg_info for package coverage
+    
+    warning: no previously-included files found matching 'ci/appveyor.token'
+    no previously-included directories found matching 'doc/_build'
+    no previously-included directories found matching 'tests/eggsrc/build'
+    no previously-included directories found matching 'tests/eggsrc/dist'
+    no previously-included directories found matching 'tests/eggsrc/*.egg-info'
+    warning: no previously-included files matching '*.py[co]' found anywhere in distribution
+Installing collected packages: mock, pytest, flake8, pytest-cov, six, funcsigs, pbr, py, pyflakes, configparser, mccabe, pycodestyle, enum34, coverage
+  Found existing installation: six 1.8.0
+    Not uninstalling six at /usr/lib/python2.7/dist-packages, owned by OS
+  Running setup.py install for configparser
+    
+    Skipping installation of /usr/local/lib/python2.7/dist-packages/backports/__init__.py (namespace package)
+    Installing /usr/local/lib/python2.7/dist-packages/configparser-3.5.0-nspkg.pth
+  Running setup.py install for coverage
+    building 'coverage.tracer' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/include/python2.7 -c coverage/ctracer/datastack.c -o build/temp.linux-x86_64-2.7/coverage/ctracer/datastack.o
+    In file included from coverage/ctracer/datastack.c:4:0:
+    coverage/ctracer/util.h:7:20: fatal error: Python.h: No such file or directory
+     #include <Python.h>
+                        ^
+    compilation terminated.
+    **
+    ** Couldn't install with extension module, trying without it...
+    ** BuildFailed: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+    **
+    
+    warning: no previously-included files found matching 'ci/appveyor.token'
+    no previously-included directories found matching 'doc/_build'
+    no previously-included directories found matching 'tests/eggsrc/build'
+    no previously-included directories found matching 'tests/eggsrc/dist'
+    no previously-included directories found matching 'tests/eggsrc/*.egg-info'
+    warning: no previously-included files matching '*.py[co]' found anywhere in distribution
+    Installing coverage2 script to /usr/local/bin
+    Installing coverage-2.7 script to /usr/local/bin
+    Installing coverage script to /usr/local/bin
+Successfully installed mock pytest flake8 pytest-cov six funcsigs pbr py pyflakes configparser mccabe pycodestyle enum34 coverage
+Cleaning up...
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[lo-world-printer-app_master-WJOWMIIDABK3I7J46FL5UEDB4TQSM2RXDDXTLWOFIFBZ46PDJYNQ] Running shell script
++ make test
+PYTHONPATH=. py.test; \
+PYTHONPATH=. py.test  --verbose -s
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.9, pytest-3.0.7, py-1.4.33, pluggy-0.4.0
+rootdir: /var/jenkins_home/workspace/lo-world-printer-app_master-WJOWMIIDABK3I7J46FL5UEDB4TQSM2RXDDXTLWOFIFBZ46PDJYNQ, inifile:
+plugins: cov-2.5.1
+collected 3 items
+
+test/test_formater.py .
+test/test_views.py ..
+
+=========================== 3 passed in 0.13 seconds ===========================
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.9, pytest-3.0.7, py-1.4.33, pluggy-0.4.0 -- /usr/bin/python
+cachedir: .cache
+rootdir: /var/jenkins_home/workspace/lo-world-printer-app_master-WJOWMIIDABK3I7J46FL5UEDB4TQSM2RXDDXTLWOFIFBZ46PDJYNQ, inifile:
+plugins: cov-2.5.1
+collecting ... collected 3 items
+
+test/test_formater.py::TestFormater::test_plain_lowercase PASSED
+test/test_views.py::FlaskrTestCase::test_msg_with_output PASSED
+test/test_views.py::FlaskrTestCase::test_outputs PASSED
+
+=========================== 3 passed in 0.11 seconds ===========================
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4JvimgS8RJX52Vk5Y/44h+KrzPFs+0XRnVHXPjWspbP+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS
